@@ -1,18 +1,19 @@
 {
-  "name": "21-ago",
+  "name": "web",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "servidorExpress.js",
   "engines": {
     "node": "8.11.3",
     "npm": "5.6.0"
   },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3"
-  }
+  "license": "ISC"
 }
